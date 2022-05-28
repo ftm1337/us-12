@@ -7,6 +7,9 @@
       "esnext"
     ],
     "allowJs": true,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -15,21 +18,25 @@
     "strict": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
     "noUnusedLocals": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
+    "noUnusedParameters": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "downlevelIteration": true,
-    "allowSyntheticDefaultImports": true,
     "types": [
       "react-spring",
       "jest"
-    ]
+    ],
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
   },
   "exclude": [
     "node_modules",
